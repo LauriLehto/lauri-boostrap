@@ -1,8 +1,6 @@
 import './App.css'
-import React, {useState} from 'react'
-import { Container, Card } from 'react-bootstrap'
-import { Facebook, Twitter, Linkedin } from 'react-bootstrap-icons';
-import {Images} from './Images';
+import {useState} from 'react'
+import { Container } from 'react-bootstrap'
 import Profile from './Profile';
 import Contact from './Contact';
 
@@ -11,8 +9,8 @@ import data from './data.json';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  const [language, setLanguage] = useState<string>('fi');
-  const [profile, setProfile] = useState('developer');
+  const [language, ] = useState<string>('fi');
+  const [profile, ] = useState('developer');
   const [form, setForm] = useState({
     name: '',
     email: '',

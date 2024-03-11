@@ -1,4 +1,4 @@
-import React, { Dispatch, SetStateAction } from 'react'
+import { Dispatch, SetStateAction } from 'react'
 import { Card } from 'react-bootstrap'
 import { Facebook, Twitter, Linkedin } from 'react-bootstrap-icons';
 import {Images} from './Images';
