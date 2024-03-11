@@ -20,22 +20,7 @@ function ContactForm(props: FormType ) {
             />
           </Form.Group>
         );
-      }
-      )}
-      {/* <Form.Group className="mb-3" controlId="contactFormName">
-        <Form.Label>{name}</Form.Label>
-        <Form.Control type="text" placeholder="Enter name" />
-      </Form.Group>
-
-      <Form.Group className="mb-3" controlId="contactFormEmail">
-        <Form.Label>{email}</Form.Label>
-        <Form.Control type="email" placeholder="Enter email" />
-      </Form.Group>
-
-      <Form.Group className="mb-3" controlId="ContactFormMessage">
-        <Form.Label>{message}</Form.Label>
-        <Form.Control type="text" placeholder="Kirjoita viesti" />
-      </Form.Group> */}
+      })}
       <Button variant="primary" type="submit">
         {button}
       </Button>
