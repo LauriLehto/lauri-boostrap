@@ -31,7 +31,7 @@ const Profile = ({bio, title, setShow, buttons}:{bio:string, title:string, setSh
         
         <div className="buttons">
           <button className="btn btn-outline-primary px-4" onClick={handleClick}>{buttons.message}</button>
-          <button className="btn btn-primary px-4 ms-3">{buttons.contact}</button>
+          <a className="btn btn-primary px-4 ms-3" href='/laurilehto.vcf' download>{buttons.contact}</a>
         </div>
       </div>
     </Card>

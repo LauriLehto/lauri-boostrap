@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 17.4//EN
+N:Lehto;Lauri;;;
+FN:Lauri Lehto
+EMAIL;type=INTERNET;type=pref:mail@laurilehto.fi
+TEL;type=CELL;type=VOICE;type=pref:+358 40 700 8864
+item1.URL;type=pref:https://laurilehto.fi
+item1.X-ABLabel:_$!<HomePage>!$_
+END:VCARD
