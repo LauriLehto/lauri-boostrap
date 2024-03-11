@@ -8,7 +8,7 @@ function ContactForm(props: FormType ) {
 
   return (
     <Card className='p-3 py-4'>
-    <Form data-netlify="true" name="contact-form">
+    <Form method="POST" data-netlify="true" name="contact-form">
       {fields.map((field, index) => {
         return (
           <Form.Group className="mb-3" controlId={`contactForm${field.name}`} key={index}>
