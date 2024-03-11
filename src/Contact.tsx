@@ -8,7 +8,9 @@ function ContactForm(props: FormType ) {
 
   return (
     <Card className='p-3 py-4'>
-    <Form method="POST" data-netlify="true" name="contact-form">
+      {/* React Netilyf forms instructions in https://www.netlify.com/blog/2017/07/20/how-to-integrate-netlifys-form-handling-in-a-react-app/ */}
+    <Form method="POST" data-netlify="true" data-netlify-honeypot="bot-field" name="contact-form">
+      <input type="hidden" name="form-name" value="contact" />
       {fields.map((field, index) => {
         return (
           <Form.Group className="mb-3" controlId={`contactForm${field.name}`} key={index}>
