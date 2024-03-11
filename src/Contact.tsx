@@ -16,6 +16,7 @@ function ContactForm(props: FormType ) {
             <Form.Control
               type={field.type}
               placeholder={field.placeholder}
+              name={field.name}
               /* value={form[field.name]} */
               onChange={(e) => setForm({ ...form, [field.name]: e.target.value })}
             />
