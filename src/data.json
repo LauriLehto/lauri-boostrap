@@ -1,0 +1,56 @@
+{
+  "name": "Lauri Lehto",
+
+  "fi": {
+    "title": "Muusikko ja koodari",
+    "subtitle": "Olen ammattimuusikko ja freelance koodari Hyvinkäältä.",
+    "buttons":{
+      "message": "Viesti",
+      "contact": "Ota yhteyttä",
+      "send": "Lähetä"
+    },
+    "fields": [
+      {
+        "label": "Nimi",
+        "name": "name",
+        "type": "text",
+        "placeholder": "Kirjoita nimi"
+      },
+      {
+        "label": "Sähköposti",
+        "name": "email",
+        "type": "email",
+        "placeholder": "Kirjoita sähköposti"
+      },
+      {
+        "label": "Viesti",
+        "name": "message",
+        "type": "textarea",
+        "placeholder": "Kirjoita viesti"
+      }
+    ],
+    "musician": {
+      "bio": ["Olen muusikko Hyvinkäältä. Toimin ykkösviulistina Mikkelin kaupunginorkesterissa. Opiskelin ammattiviulistiksi Lahden konservatoriossa ja Lahden ammattikorkeakoulussa.", "Olen soittanut viulua ammatikseni yli 20 vuotta. Olen soittanut monissa orkestereissa ja yhtyeissä ja olen myös pitkäaikainen jäsen Hyvinkään orkesterissa."]
+    },
+    "developer": {
+      "bio": ["Olen ohjelmistokehittäjä Hyvinkäältä. Olen intohimoinen web-kehityksestä, avoimesta lähdekoodista ja JavaScript-ekosysteemistä. Työskentelen tällä hetkellä freelancerina."]
+    }
+  },
+  "en":{
+    "title": "Musician and Developer",
+    "musician": {
+      "bio": ["I'm a musician from Finland. I work as the I principal violinist in St. Michel Strings. I studied in Lahti Conservatory and Lahti University of Applied Sciences.", "I have been playing the violin professionally for over 20 years. I have played in many orchestras and ensembles and am also a long time member of Hyvinkää Orchestra."]
+    },
+    "developer": {
+      "bio": ["I'm a software developer from Finland. I'm passionate about web development, open source, and the JavaScript ecosystem. I'm currently working as a freelancer"]
+    }
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/laurimilehto",
+    "twitter": "https://twitter.com/laurimilehto",
+    "linkedin": "https://www.linkedin.com/in/lauri-lehto-1a340311b"
+  },
+  "contact": {
+    "email": "lauri@laurilehto.fi"
+  }
+}
