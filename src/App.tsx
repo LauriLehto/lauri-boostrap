@@ -11,20 +11,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   const [language, ] = useState<string>('fi');
   const [profile, ] = useState('developer');
-  const [form, setForm] = useState({
-    name: '',
-    email: '',
-    message: '',
-  });
+  
   const [show, setShow] = useState(false);
 
   const page = (data as { [key: string]: any })[language];
 
   const ContactProps = {
     fields: page.fields,
-    form,
-    setForm,
-    button:page.buttons.send
+    button:page.buttons.send,
+    setShow: setShow,
   }
 
   return (
@@ -33,7 +28,7 @@ function App() {
         {show ? 
         <Contact  {...ContactProps} />
         :
-        <Profile bio={page[profile].bio} title={page.title} buttons={page.buttons} setShow={setShow}/>}
+        <Profile subtitle={page.subtitle} title={page.title} buttons={page.buttons} setShow={setShow}/>}
 
       </div>
 

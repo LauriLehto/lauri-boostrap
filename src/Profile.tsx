@@ -1,14 +1,32 @@
-import { Dispatch, SetStateAction } from 'react'
+import { Dispatch, SetStateAction, /* useState */ } from 'react'
 import { Card } from 'react-bootstrap'
-import { Facebook, Twitter, Linkedin } from 'react-bootstrap-icons';
+import { Facebook, Twitter, Linkedin, /* MusicNoteBeamed, CodeSlash */ } from 'react-bootstrap-icons';
 import {Images} from './Images';
 
 import data from './data.json';
-const Profile = ({bio, title, setShow, buttons}:{bio:string, title:string, setShow:Dispatch<SetStateAction<boolean>>, buttons:{message:string,contact:string}}) => {
+
+const Profile = ({ title, subtitle, setShow, buttons}:{title:string, subtitle:string, setShow:Dispatch<SetStateAction<boolean>>, buttons:{message:string,contact:string}}) => {
+
+  /* const [showCode, setShowCode] = useState(false);
+  const [showMusic, setShowMusic] = useState(false); */
 
   const handleClick = () => {
     setShow(true);
   }
+
+  const IconProps = {
+    color:"royalblue",
+    size: 30
+  }
+
+  /* const toggleShowCode = () => {
+    setShowCode(!showCode);
+  }
+
+  const toggleShowMusic = () => {
+    setShowMusic(!showMusic);
+  } */
+
   return (
     <Card className='p-3 py-4'>
       <div className="text-center">
@@ -20,13 +38,22 @@ const Profile = ({bio, title, setShow, buttons}:{bio:string, title:string, setSh
         <span>{title}</span>
         
         <div className="px-4 mt-1">
-          <p className="fonts">{bio}</p>
+          <p className="fonts">{subtitle}</p>
         </div>
+
+        {/* <div style={{display:"flex", flex:1, flexDirection:"row", justifyContent:"space-around"}}>
+          <Card onMouseEnter={toggleShowCode} onMouseLeave={toggleShowCode} style={{padding:"5%"}}>
+            {showCode ? <p className="fonts">{bio}</p> : <CodeSlash {...IconProps} size={50} />}
+          </Card>
+          <Card onMouseEnter={toggleShowMusic} onMouseLeave={toggleShowMusic} style={{padding:"5%"}}> 
+            {showMusic ? <p className="fonts">{bio}</p> :  <MusicNoteBeamed {...IconProps} size={50} />}
+          </Card>
+        </div> */}
         
         <div style={{display:"flex", flexDirection:"row", justifyContent:"center", paddingBottom: "5%"}}>
-          <a href={data.social.twitter} className="me-2" target="_blank"><Twitter /></a>
-          <a href={data.social.facebook} className="me-2" target="_blank"><Facebook /></a>
-          <a href={data.social.linkedin} className="me-2" target="_blank"><Linkedin /></a>
+          <a href={data.social.twitter} className="me-2 p-2" target="_blank"><Twitter {...IconProps} /></a>
+          <a href={data.social.facebook} className="me-2 p-2" target="_blank"><Facebook {...IconProps} /></a>
+          <a href={data.social.linkedin} className="me-2 p-2" target="_blank"><Linkedin {...IconProps}/></a>
         </div>
         
         <div className="buttons">

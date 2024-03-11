@@ -2,8 +2,8 @@
   "name": "Lauri Lehto",
 
   "fi": {
-    "title": "Muusikko ja koodari",
-    "subtitle": "Olen ammattimuusikko ja freelance koodari Hyvinkäältä.",
+    "title": "Muusikko ja insinööri",
+    "subtitle": "Työskentelen ammattiviulistina Mikkelin kaupunginorkesterissa ja teen freelancerina ohjelmointitöitä.",
     "buttons":{
       "message": "Viesti",
       "contact": "Ota yhteyttä",
@@ -30,19 +30,19 @@
       }
     ],
     "musician": {
-      "bio": ["Olen muusikko Hyvinkäältä. Toimin ykkösviulistina Mikkelin kaupunginorkesterissa. Opiskelin ammattiviulistiksi Lahden konservatoriossa ja Lahden ammattikorkeakoulussa.", "Olen soittanut viulua ammatikseni yli 20 vuotta. Olen soittanut monissa orkestereissa ja yhtyeissä ja olen myös pitkäaikainen jäsen Hyvinkään orkesterissa."]
+      "bio": ["Opiskelin ammattiviulistiksi Lahden (ent. Päijät-Hämeen konservatoriossa ja Lahden ammattikorkeakoulussa.", "Olen soittanut viulua ammatikseni yli 20 vuotta ja Mikkelin. Olen soittanut monissa orkestereissa ja yhtyeissä ja olen myös pitkäaikainen jäsen Hyvinkään orkesterissa."]
     },
     "developer": {
-      "bio": ["Olen ohjelmistokehittäjä Hyvinkäältä. Olen intohimoinen web-kehityksestä, avoimesta lähdekoodista ja JavaScript-ekosysteemistä. Työskentelen tällä hetkellä freelancerina."]
+      "bio": ["Aloitin tieto- ja viestintätekniikan opinnot Metropolialla 2016 ja valmistuin IT-insinööriksi 2022. Olen kiinnostunut laajasti web-kehityksestä, avoimesta lähdekoodista ja JavaScript-ekosysteemeistä. Työskentelen tällä hetkellä freelancerina."]
     }
   },
   "en":{
     "title": "Musician and Developer",
     "musician": {
-      "bio": ["I'm a musician from Finland. I work as the I principal violinist in St. Michel Strings. I studied in Lahti Conservatory and Lahti University of Applied Sciences.", "I have been playing the violin professionally for over 20 years. I have played in many orchestras and ensembles and am also a long time member of Hyvinkää Orchestra."]
+      "bio": ["I'm a musician from Finland. I studied in Lahti Conservatory and Lahti University of Applied Sciences to become a violin teacher.",  "I have been playing the violin professionally for over 20 years and I have played in many orchestras and ensembles. I have been working as the I principal violinist in St. Michel Strings since 2008 and am also a long time member of Hyvinkää Orchestra."]
     },
     "developer": {
-      "bio": ["I'm a software developer from Finland. I'm passionate about web development, open source, and the JavaScript ecosystem. I'm currently working as a freelancer"]
+      "bio": ["I'm a software developer from Finland.", "I started my studies in information and communication technology at Metropolia University of Applied Sciences in 2016 and graduated as a Bachelor of Engineering in 2022.", "I'm passionate about web development, open source, and the JavaScript ecosystems. I'm currently working as a freelancer"]
     }
   },
   "social": {
