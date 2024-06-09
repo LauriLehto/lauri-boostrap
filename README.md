@@ -1,4 +1,10 @@
-# React + TypeScript + Vite
+# Basic home page
+
+This is my profile website hosted on Netlify.
+
+https://laurilehto.fi
+
+## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
